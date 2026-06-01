@@ -1,0 +1,3 @@
+/home/skaft/dev/algorithmic/build/CMakeFiles/algorithmic.dir
+/home/skaft/dev/algorithmic/build/CMakeFiles/edit_cache.dir
+/home/skaft/dev/algorithmic/build/CMakeFiles/rebuild_cache.dir
