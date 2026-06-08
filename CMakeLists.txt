@@ -9,6 +9,7 @@ set(SOURCES
     src/main.cpp
 
     src/algorithms/sqrt.cpp
+    src/algorithms/PerlinNoise2D.cpp
 )
 
 # define executable target

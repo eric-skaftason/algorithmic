@@ -85,12 +85,12 @@ clean: CMakeFiles/algorithmic.dir/clean
 CMakeFiles/algorithmic.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithmic.dir/build.make CMakeFiles/algorithmic.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithmic.dir/build.make CMakeFiles/algorithmic.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/skaft/dev/algorithmic/build/CMakeFiles --progress-num=1,2,3 "Built target algorithmic"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/skaft/dev/algorithmic/build/CMakeFiles --progress-num=1,2,3,4 "Built target algorithmic"
 .PHONY : CMakeFiles/algorithmic.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/algorithmic.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/skaft/dev/algorithmic/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/skaft/dev/algorithmic/build/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/algorithmic.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/skaft/dev/algorithmic/build/CMakeFiles 0
 .PHONY : CMakeFiles/algorithmic.dir/rule
@@ -102,7 +102,7 @@ algorithmic: CMakeFiles/algorithmic.dir/rule
 # codegen rule for target.
 CMakeFiles/algorithmic.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithmic.dir/build.make CMakeFiles/algorithmic.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/skaft/dev/algorithmic/build/CMakeFiles --progress-num=1,2,3 "Finished codegen for target algorithmic"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/skaft/dev/algorithmic/build/CMakeFiles --progress-num=1,2,3,4 "Finished codegen for target algorithmic"
 .PHONY : CMakeFiles/algorithmic.dir/codegen
 
 # clean rule for target.

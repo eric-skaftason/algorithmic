@@ -129,6 +129,30 @@ algorithmic/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithmic.dir/build.make CMakeFiles/algorithmic.dir/build
 .PHONY : algorithmic/fast
 
+src/algorithms/PerlinNoise2D.o: src/algorithms/PerlinNoise2D.cpp.o
+.PHONY : src/algorithms/PerlinNoise2D.o
+
+# target to build an object file
+src/algorithms/PerlinNoise2D.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithmic.dir/build.make CMakeFiles/algorithmic.dir/src/algorithms/PerlinNoise2D.cpp.o
+.PHONY : src/algorithms/PerlinNoise2D.cpp.o
+
+src/algorithms/PerlinNoise2D.i: src/algorithms/PerlinNoise2D.cpp.i
+.PHONY : src/algorithms/PerlinNoise2D.i
+
+# target to preprocess a source file
+src/algorithms/PerlinNoise2D.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithmic.dir/build.make CMakeFiles/algorithmic.dir/src/algorithms/PerlinNoise2D.cpp.i
+.PHONY : src/algorithms/PerlinNoise2D.cpp.i
+
+src/algorithms/PerlinNoise2D.s: src/algorithms/PerlinNoise2D.cpp.s
+.PHONY : src/algorithms/PerlinNoise2D.s
+
+# target to generate assembly for a file
+src/algorithms/PerlinNoise2D.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithmic.dir/build.make CMakeFiles/algorithmic.dir/src/algorithms/PerlinNoise2D.cpp.s
+.PHONY : src/algorithms/PerlinNoise2D.cpp.s
+
 src/algorithms/sqrt.o: src/algorithms/sqrt.cpp.o
 .PHONY : src/algorithms/sqrt.o
 
@@ -186,6 +210,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... algorithmic"
+	@echo "... src/algorithms/PerlinNoise2D.o"
+	@echo "... src/algorithms/PerlinNoise2D.i"
+	@echo "... src/algorithms/PerlinNoise2D.s"
 	@echo "... src/algorithms/sqrt.o"
 	@echo "... src/algorithms/sqrt.i"
 	@echo "... src/algorithms/sqrt.s"

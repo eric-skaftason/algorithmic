@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/algorithmic.dir/link.d"
+  "CMakeFiles/algorithmic.dir/src/algorithms/PerlinNoise2D.cpp.o"
+  "CMakeFiles/algorithmic.dir/src/algorithms/PerlinNoise2D.cpp.o.d"
   "CMakeFiles/algorithmic.dir/src/algorithms/sqrt.cpp.o"
   "CMakeFiles/algorithmic.dir/src/algorithms/sqrt.cpp.o.d"
   "CMakeFiles/algorithmic.dir/src/main.cpp.o"
