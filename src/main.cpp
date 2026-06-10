@@ -4,7 +4,7 @@
 #include <algorithmic/algorithms/PerlinNoise2D.hpp>
 
 
-algorithmic::PerlinNoise2D noise(50, 50);
+algorithmic::PerlinNoise2D noise(50, 50, 10, 1, 1);
 
 int main() {
     int algorithm = 0;
