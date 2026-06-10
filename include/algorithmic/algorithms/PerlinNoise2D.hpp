@@ -1,21 +1,23 @@
 #pragma once
-#include "algorithmic/algorithms/PerlinNoise2D.hpp"
 
 #include <vector>
+#include <array>
 
 namespace algorithmic {
 
     class PerlinNoise2D {
         private:
-            std::vector<std::vector<double[2]>> unit_vectors;
             double width, height;
 
-            void generate_unit_vectors(double period, double amplitude);
+            std::vector<std::vector<std::array<double, 2>>> generate_unit_vectors(double period, double amplitude);
         public:
 
+            PerlinNoise2D(double w, double h);
             PerlinNoise2D();
 
-            const double noise(double x, double y) const;
+            void interface();
+
+            const double noise(double x, double y);
         
 
 
